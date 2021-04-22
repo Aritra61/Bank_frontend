@@ -1,0 +1,49 @@
+<html>
+  <head> </head>
+  <body>
+    <div class="row">
+      <div class="panel col-sm-2">
+        <div class="home">
+          <div class="button_pos">
+            <button class="button_pos" (click)="onApplyLoan()">
+              Apply Loan
+            </button>
+          </div>
+          <div class="button_pos">
+            <button class="button_pos" (click)="onUpdateCustomer()">
+              Update Customer
+            </button>
+          </div>
+          <div class="button_pos">
+            <button (click)="onViewCustomer()" class="button_pos">
+              View Customer
+            </button>
+          </div>
+          <div class="button_pos">
+            <button (click)="onViewLoan()" class="button_pos">View Loan</button>
+          </div>
+          <div class="button_pos">
+            <button class="button_pos" (click)="onLogout()">Logout</button>
+          </div>
+        </div>
+        <p class="welcome">Welcome</p>
+      </div>
+      <div class="img col-sm-10" class="childdisplay">
+        <div class="component_heading">
+          <span class="component_name">{{pageName}}</span>
+        </div>
+        <div *ngIf="ishomePage">
+          <img
+            class="img"
+            src="../../assets/bank-building-outline-icon-isolated-elegant-thin-line-style-drawing-design-69787647-removebg-preview.png"
+            alt="bank_image"
+            style="margin-left: 18%"
+          />
+        </div>
+        <div *ngIf="!ishomePage" >
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

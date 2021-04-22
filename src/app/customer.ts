@@ -1,0 +1,29 @@
+export class Customer {
+  customerId: string;
+  name: string;
+  username: string;
+  password: string;
+  address: string;
+  email: string;
+  gender: string;
+  maritalStatus: string;
+  contactNumber: string;
+  dateOfBirth: Date;
+  accountnumber: string;
+  accountType: string;
+  initialDepositAmount: Number;
+  gurdianName: String;
+  gurdianType: String;
+  country: String;
+  state: String;
+  citizenShip: String;
+  citizenStatus: string;
+  dateOfRegistration: String;
+  bankName: string;
+  branchName: String;
+  idproofType: String;
+  iddocNumber: String;
+  refaccholderName: String;
+  refaccholderAccNo: String;
+  refaccholderAddress: String;
+}

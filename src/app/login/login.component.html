@@ -1,0 +1,34 @@
+<div class="container">  
+    <form (ngSubmit) = "onSubmit()">
+      <p [ngClass]="{display_error : getErrorCondition()}">{{errormessage}}</p>
+        <!-- <div class="col-md-12 bg-lightblue text-right">                
+          <input type="image" src='../../assets/fb.jpg' width="25px" height="25px" (click) = 'onLoginUsingFB()'>&nbsp;          
+          <input type="image" src='../../assets/google.JPG' width="25px" height="25px" (click) = 'onLoginUsingGoogle()'>&nbsp;
+          
+          <input type="image" src='../../assets/twitter.jpg' width="25px" height="25px" (click) = 'onLoginUsingFB()'>&nbsp;
+          
+        </div>  -->
+        <br>
+        <div class="row">            
+          <div class = "col-md-12">
+            <label for=name><span class="error">* </span>User Id:</label>&nbsp;
+            <input type="text" name="cid"  id="cid" required [(ngModel)] = "customer.customerId" >
+          </div>
+      </div>
+        <div class="row">            
+            <div class = "col-md-12">
+              <label for=name><span class="error">* </span>Username:</label>&nbsp;
+              <input type="text" name="uid" id="uid" required [(ngModel)] = "customer.username" >
+            </div>
+        </div>
+        <div class="row">           
+            <div class = "col-md-12">
+              <label for=name><span class="error">* </span>Password:</label>&nbsp;
+              <input type="text" name="pwd" id="pwd" required [(ngModel)] = "customer.password" >
+            </div>
+        </div>
+        <br>
+        <button type="submit" class = 'btn-info' >Login</button> &nbsp;&nbsp;        
+        <button type='button' (click) = 'onRegisterCustomer()'  class='btn-info'>Register</button>
+    </form>  
+</div>

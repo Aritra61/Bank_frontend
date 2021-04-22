@@ -1,0 +1,13 @@
+h2{
+    color:white;
+    text-align: center;
+    font-size: 300%;
+    margin:0px;
+    padding:18px;
+}
+.app_style{
+    background-color: lightblue;
+}
+.header_style{
+    background-color: darkblue;
+}

@@ -1,0 +1,72 @@
+body {
+  background-color: lightblue;
+  color: black;
+}
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+    color: white;
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+    color: white;
+  }
+}
+.panel{
+    width: 100%;
+    background-color: cadetblue;
+    height:550px;
+}
+.home{
+    margin-left: 0px;
+    margin-top: 0%;
+    padding-top: 0rem;
+    display: block;
+    width: 200px !important;
+    font-size: 100%;
+    text-align: center;
+}
+.button_pos{
+   width: 200px !important;
+   background-color: cadetblue;
+}
+.button_pos:hover{
+      background-color: rgb(24, 131, 134);
+}
+.img{
+    background-color: lightblue;
+    align-items: center;
+    width: 67%;
+    height:10%;
+}
+.childdisplay{
+  border: midnightblue;
+  border-width: 0.2in;
+  border-style: groove;
+  border-color: midnightblue;
+  height: 550px;
+  width:1134px;
+  overflow-y: auto;
+}
+.welcome{
+  margin-top: 80px;
+  margin-left:25px;
+  font-weight: 800;
+  font-size: xx-large;
+}
+.component_heading{
+  background-color: navy;
+  width:100%;
+}
+.component_name{
+  font-style: normal;
+  color:white;
+  font-size: 150%;
+  margin-left:20px;
+}

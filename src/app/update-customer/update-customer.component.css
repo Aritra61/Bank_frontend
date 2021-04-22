@@ -1,0 +1,35 @@
+.error{
+    font-style: italic;
+}
+.align_left{
+    float: left;
+    width:500px;
+    height: 100px;
+}
+
+.align_right{
+    float: right;
+    width:500px;
+    height: 100px;
+}
+.action{
+    top:50px;
+}
+.input{
+    margin-left:2%;
+    margin-right:2%;
+    padding-left:1%;
+    padding-right:1%
+}
+.display_sucess{
+    padding-left:33%;
+    color: green;
+    font-size: larger;
+    font-weight: 600;
+}
+.display_error{
+    padding-left:33%;
+    color: red;
+    font-size: larger;
+    font-weight: 600;
+}

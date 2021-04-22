@@ -1,0 +1,197 @@
+<div class="container">
+    <div class="row">
+  <div class="col loan_diff" >
+      <p class="heading">Personal Loan</p>
+    <div *ngFor="let loan of personalLoans">
+      <br /><br />
+        <div class="table-responsive table_design " >
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">Account Parameters</th>
+                <th scope="col">Values</th>
+              </tr>
+            </thead>
+            <tr>
+              <td>LoanId:</td>
+              <td>{{ loan.loanId }}</td>
+            </tr>
+            <tr>
+              <td>CustomerId:</td>
+              <td>{{ loan.customerId }}</td>
+            </tr>
+            <tr>
+              <td>LoanType:</td>
+              <td>{{ loan.loanType }}</td>
+            </tr>
+            <tr>
+              <td>LoanAmount</td>
+              <td>{{ loan.loanAmount }}</td>
+            </tr>
+            <tr>
+              <td>Rate Of Interest</td>
+              <td>{{ loan.rateOfInterest }}</td>
+            </tr>
+            <tr>
+              <td>Loan Duration</td>
+              <td>{{ loan.loanDuration }}</td>
+            </tr>
+            <tr>
+              <td>Loan Issue Date</td>
+              <td>{{ loan.loanIssueDate }}</td>
+            </tr>
+            <tr>
+              <td>Annual Income</td>
+              <td>{{ loan.annualIncome }}</td>
+            </tr>
+            <tr>
+              <td>Company Name</td>
+              <td>{{ loan.companyName }}</td>
+            </tr>
+            <tr>
+              <td>Course Name</td>
+              <td>{{ loan.courseName }}</td>
+            </tr>
+            <tr>
+              <td>Course Fee</td>
+              <td>{{ loan.courseFee }}</td>
+            </tr>
+            <tr>
+              <td>Father Name</td>
+              <td>{{ loan.fatherName }}</td>
+            </tr>
+          </table>
+       
+      </div>
+    </div>
+  </div>
+  <div class="col loan_diff" >
+     <p class="heading">Housing Loan</p>
+    <div *ngFor="let loan of housingLoans">
+      <br /><br />
+      <div class="table-responsive table_design ">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Account Parameters</th>
+              <th scope="col">Values</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>LoanId:</td>
+            <td>{{ loan.loanId }}</td>
+          </tr>
+          <tr>
+            <td>CustomerId:</td>
+            <td>{{ loan.customerId }}</td>
+          </tr>
+          <tr>
+            <td>LoanType:</td>
+            <td>{{ loan.loanType }}</td>
+          </tr>
+          <tr>
+            <td>LoanAmount</td>
+            <td>{{ loan.loanAmount }}</td>
+          </tr>
+          <tr>
+            <td>Rate Of Interest</td>
+            <td>{{ loan.rateOfInterest }}</td>
+          </tr>
+          <tr>
+            <td>Loan Duration</td>
+            <td>{{ loan.loanDuration }}</td>
+          </tr>
+          <tr>
+            <td>Loan Issue Date</td>
+            <td>{{ loan.loanIssueDate }}</td>
+          </tr>
+          <tr>
+            <td>Annual Income</td>
+            <td>{{ loan.annualIncome }}</td>
+          </tr>
+          <tr>
+            <td>Company Name</td>
+            <td>{{ loan.companyName }}</td>
+          </tr>
+          <tr>
+            <td>Course Name</td>
+            <td>{{ loan.courseName }}</td>
+          </tr>
+          <tr>
+            <td>Course Fee</td>
+            <td>{{ loan.courseFee }}</td>
+          </tr>
+          <tr>
+            <td>Father Name</td>
+            <td>{{ loan.fatherName }}</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="col loan_diff">
+    <p class="heading">Educational Loan</p>
+    <div *ngFor="let loan of educationLoans">
+      <br /><br />
+      <div class="table-responsive table_design ">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Account Parameters</th>
+              <th scope="col">Values</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>LoanId:</td>
+            <td>{{ loan.loanId }}</td>
+          </tr>
+          <tr>
+            <td>CustomerId:</td>
+            <td>{{ loan.customerId }}</td>
+          </tr>
+          <tr>
+            <td>LoanType:</td>
+            <td>{{ loan.loanType }}</td>
+          </tr>
+          <tr>
+            <td>LoanAmount</td>
+            <td>{{ loan.loanAmount }}</td>
+          </tr>
+          <tr>
+            <td>Rate Of Interest</td>
+            <td>{{ loan.rateOfInterest }}</td>
+          </tr>
+          <tr>
+            <td>Loan Duration</td>
+            <td>{{ loan.loanDuration }}</td>
+          </tr>
+          <tr>
+            <td>Loan Issue Date</td>
+            <td>{{ loan.loanIssueDate }}</td>
+          </tr>
+          <tr>
+            <td>Annual Income</td>
+            <td>{{ loan.annualIncome }}</td>
+          </tr>
+          <tr>
+            <td>Company Name</td>
+            <td>{{ loan.companyName }}</td>
+          </tr>
+          <tr>
+            <td>Course Name</td>
+            <td>{{ loan.courseName }}</td>
+          </tr>
+          <tr>
+            <td>Course Fee</td>
+            <td>{{ loan.courseFee }}</td>
+          </tr>
+          <tr>
+            <td>Father Name</td>
+            <td>{{ loan.fatherName }}</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

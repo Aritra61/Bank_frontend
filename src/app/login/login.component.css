@@ -1,0 +1,10 @@
+.container{
+    background-color: lightblue;
+    text-align: center;
+}
+.display_error{
+    
+    color: red;
+    font-size: larger;
+    font-weight: 600;
+}
